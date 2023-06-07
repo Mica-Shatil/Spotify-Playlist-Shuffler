@@ -1,0 +1,11 @@
+flask
+spotipy
+os
+time
+requests
+random
+json
+signal
+webbrowser
+threading
+pyautogui
