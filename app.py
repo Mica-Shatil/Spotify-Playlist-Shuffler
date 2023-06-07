@@ -19,8 +19,8 @@ import pyautogui
 
 # App config
 app = Flask(__name__)
-app.secret_key = "RANDOM_KEY"      
-app.config['SESSION_COOKIE_NAME'] = 'MAPP Cookie'
+app.secret_key = ""      # Fill in your secret key
+app.config['SESSION_COOKIE_NAME'] = ""    # Fill in your session cookie name
 
 # program constants
 TOKEN_INFO = "token_info"
